@@ -10,7 +10,7 @@ resource "azurerm_storage_account" "example" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 
-  infrastructure_encryption_enabled = true
+  infrastructure_encryption_enabled = false
 
   tags = {
     X-CS-Account       = "a77dabbb-bad5-4929-8194-ab32b10b1e6f"
