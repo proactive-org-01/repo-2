@@ -1,0 +1,3 @@
+resource "aws_redshift_cluster" "public_cluster" {
+  publicly_accessible = true
+}
